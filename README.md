@@ -24,7 +24,7 @@ This repository provides a production-ready, professional web interface and REST
 ## 🚀 Quick Start (Running the UI)
 
 ### Option 1: Double-Click Launcher (Windows)
-Double-click [`run.bat`](file:///c:/Users/ramsa/final%20year%20projects/2026/ai%20image%20detection%2026srk01/project/run.bat).
+Double-click [`run.bat`](run.bat).
 
 ### Option 2: Command Line
 ```powershell
@@ -90,3 +90,12 @@ project/
 ├── run.bat                         # Windows batch launcher
 └── requirements.txt                # Python dependencies
 ```
+Note: The trained model weights (best_model.pth) are downloaded separately from Hugging Face and are not stored in this GitHub repository.
+
+## 📥 Download Trained Model
+
+Download the trained ConvNeXt-Tiny model weights here:
+
+👉 [Download best_model.pth](https://huggingface.co/SaiCharitha1710/generalized-synthetic-deepfake-detector/resolve/main/best_model.pth)
+
+After downloading, place the file inside the `genimage_detector_deployment/` folder.
