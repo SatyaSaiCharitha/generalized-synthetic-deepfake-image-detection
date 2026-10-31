@@ -84,7 +84,7 @@ project/
 ├── training/                        # Offline training and evaluation scripts
 │   ├── inspect_dataset.py          # Dataset structure and generator counter
 │   └── evaluate.py                 # Evaluation benchmark runner
-├── train_tiny_genimage_local.ipynb # Training notebook (3 candidate models)
+├── train_tiny_genimage_colab_drive.ipynb # Training notebook (3 candidate models)
 ├── server.py                       # FastAPI production backend
 ├── run_backend.py                  # Automatic launcher script
 ├── run.bat                         # Windows batch launcher
