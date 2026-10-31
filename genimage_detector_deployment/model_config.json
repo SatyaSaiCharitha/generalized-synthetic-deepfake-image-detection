@@ -1,0 +1,30 @@
+{
+  "architecture": "convnext_tiny",
+  "num_classes": 2,
+  "class_names": [
+    "REAL",
+    "AI-GENERATED"
+  ],
+  "input_size": [
+    224,
+    224
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "test_accuracy": 0.9885736050276138,
+  "test_f1": 0.9884881043745203,
+  "test_auc": 0.999015631233453,
+  "test_precision": 0.9957479706223424,
+  "test_recall": 0.9813333333333333,
+  "is_trained": true,
+  "training_platform": "Google Colab",
+  "timestamp": "2026-10-04 07:09:49"
+}
